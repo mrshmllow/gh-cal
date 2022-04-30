@@ -12,3 +12,10 @@ Usage:
     gh-cal <username> [--no-colour] [--levels]
     gh-cal -h | --help
 ```
+
+## Install
+
+`$ deno install --allow-net --allow-run https://raw.githubusercontent.com/mrshmllow/gh-cal/main/gh-cal.ts`
+
+## Run
+`$ deno run --allow-net --allow-run https://raw.githubusercontent.com/mrshmllow/gh-cal/main/gh-cal.ts`
