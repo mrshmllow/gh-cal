@@ -14,6 +14,7 @@ Usage:
 ```
 
 ## Install
+> you should have deno installd in order to use it [read more](https://deno.land/manual/getting_started/installation).
 
 `$ deno install --allow-net --allow-run https://raw.githubusercontent.com/mrshmllow/gh-cal/main/gh-cal.ts`
 
