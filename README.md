@@ -2,10 +2,10 @@
 
 I decided to make this in deno, since I figured that dom support would be easy.
 
-`View your github profile graph in unicode.
+```View your github profile graph in unicode.
 
 Usage:
     graph [--no-colour] [--levels]
     graph [username] [--no-colour] [--levels]
-    graph -h | --help`
+    graph -h | --help```
 
