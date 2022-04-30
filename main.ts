@@ -91,12 +91,12 @@ const main = async (username?: string) => {
 
 const help = () => {
 	// Im not doing this right, right?
-	console.log(`View your github profile graph in unicode.
+	console.log(`View your github contribution calander in unicode.
 
 Usage:
-    graph [--no-colour] [--levels]
-    graph [username] [--no-colour] [--levels]
-    graph -h | --help
+    gh-cal [--no-colour] [--levels]
+    gh-cal [username] [--no-colour] [--levels]
+    gh-cal -h | --help
 `);
 };
 
@@ -127,7 +127,7 @@ if (parsed.help || parsed.h) {
 		else {
 			console.log(`Provide a username:
 Usage:
-    graph [username] [--no-colour] [--levels]`);
+    gh-cal [username] [--no-colour] [--levels]`);
 		}
 	}
 
