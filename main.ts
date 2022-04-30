@@ -95,7 +95,7 @@ const help = () => {
 
 Usage:
     gh-cal [--no-colour] [--levels]
-    gh-cal [username] [--no-colour] [--levels]
+    gh-cal <username> [--no-colour] [--levels]
     gh-cal -h | --help
 `);
 };
