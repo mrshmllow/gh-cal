@@ -1,14 +1,31 @@
 # View your github contribution calander in the terminal
 
-![image](https://user-images.githubusercontent.com/40532058/166097938-dcb6beef-5e3c-4e05-b561-0847bae5592a.png)
+![image](https://user-images.githubusercontent.com/40532058/166221848-c6db8603-9bbd-4328-b0f8-21e25bd1aac4.png)
 
-I decided to make this in deno, since I figured that dom support would be easy.
+![image](https://user-images.githubusercontent.com/40532058/166221881-a15652e4-3d92-4a4a-bed2-cefeeb735883.png)
+
+Now in rust!
 
 ```
-View your github contribution calander in unicode.
+gh-cal 0.1.0
+marshmallow
+View your github contribution calander in unicode
 
-Usage:
-    gh-cal [--no-colour] [--levels]
-    gh-cal <username> [--no-colour] [--levels]
-    gh-cal -h | --help
+USAGE:
+    gh-cal [OPTIONS] [USERNAME]
+
+ARGS:
+    <USERNAME>    A valid Github username. Tries to guess
+
+OPTIONS:
+    -h, --help         Print help information
+    -n, --no-colour    Disable colour. Respects NO_COLOR by default
+    -r, --raw          See raw levels
+    -V, --version      Print version information
 ```
+
+# Install
+
+> You must have cargo installed.
+
+`cargo install gh-cal`
