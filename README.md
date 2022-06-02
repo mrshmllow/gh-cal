@@ -26,6 +26,24 @@ OPTIONS:
 
 # Install
 
+```sh
+git clone https://github.com/mrshmllow/gh-cal
+cd gh-cal
+tar -xf gh-cal.tar.xz
+sudo cp gh-cal /usr/bin
+sudo chmod +x /usr/bin/gh-cal
+```
+
+> AUR (Needs approval from the Author)
+
+```sh
+yay -S gh-cal
+```
+
+# Build
+
 > You must have cargo installed.
 
-`cargo install gh-cal`
+```sh
+cargo install gh-cal
+```
