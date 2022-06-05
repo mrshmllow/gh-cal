@@ -5,7 +5,8 @@ edition = "2021"
 description = "View your github contribution calander in unicode"
 authors = ["marshmallow <marshycity@gmail.com>"]
 repository = "https://github.com/mrshmllow/gh-cal"
-license-file = "LICENSE"
+homepage = "https://github.com/mrshmllow/gh-cal"
+license = "MIT"
 keywords = ["cli", "github", "git"]
 categories = ["command-line-utilities"]
 
