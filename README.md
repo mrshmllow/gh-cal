@@ -26,18 +26,10 @@ OPTIONS:
 
 # Install
 
-```sh
-git clone https://github.com/mrshmllow/gh-cal
-cd gh-cal
-tar -xf gh-cal.tar.xz
-sudo cp gh-cal /usr/bin
-sudo chmod +x /usr/bin/gh-cal
-```
-
-> AUR (Needs approval from the Author)
+> AUR (WIP)
 
 ```sh
-yay -S gh-cal
+yay -S gh-cal-bin
 ```
 
 # Build
