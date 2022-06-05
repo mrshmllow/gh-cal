@@ -12,7 +12,7 @@ arch=("x86_64")
 provides=("gh-cal")
 conflicts=("gh-cal")
 source=("https://github.com/mrshmllow/gh-cal/releases/download/v$pkgver/gh-cal-$pkgver-x86_64.tar.gz")
-sha256sums=("0bd0435112780c56ac40719cb56b9c0b81e1502ec59d9b5ca021c9b2221ef414")
+sha256sums=("b9ee79cecbea949798d1b393be060a2bdd33284739a0b808cf70fc0cf55180e5")
 
 package() {
     install -Dm755 gh-cal -t "$pkgdir/usr/bin"
