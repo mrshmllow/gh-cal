@@ -32,6 +32,12 @@ OPTIONS:
 yay -S gh-cal-bin
 ```
 
+> Nix (nixpkgs unstable)
+
+```sh
+nix-env -iA nixpkgs.gh-cal
+```
+
 # Build
 
 > You must have cargo installed.
