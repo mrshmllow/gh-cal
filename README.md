@@ -32,7 +32,7 @@ OPTIONS:
 yay -S gh-cal-bin
 ```
 
-> Nix (nixpkgs unstable)
+> Nix
 
 ```sh
 nix-env -iA nixpkgs.gh-cal
