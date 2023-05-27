@@ -26,16 +26,10 @@ OPTIONS:
 
 # Install
 
-> AUR (WIP)
+> Cargo
 
 ```sh
-yay -S gh-cal-bin
-```
-
-> Nix (nixpkgs unstable)
-
-```sh
-nix-env -iA nixpkgs.gh-cal
+cargo install gh-cal
 ```
 
 # Build
