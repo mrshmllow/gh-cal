@@ -31,11 +31,3 @@ OPTIONS:
 ```sh
 cargo install gh-cal
 ```
-
-# Build
-
-> You must have cargo installed.
-
-```sh
-cargo install gh-cal
-```
